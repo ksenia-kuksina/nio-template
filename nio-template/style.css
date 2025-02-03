@@ -1,0 +1,462 @@
+body {
+    font-family: "Open Sans", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+ a {
+    text-decoration: none;
+    color: #aaa;
+ }
+
+ ul {
+    list-style: none; /* Убираем маркеры у списка */
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #ddd; /* Создаём серую полоску */
+    padding: 20px 0; /* Добавляем отступ сверху и снизу */
+}
+  
+.container-1 {
+    background-image: url(https://wpphotography.mymedia.delivery/1500x1000/p/wp-0/wp-content/uploads/2024/04/Mountain-Atmospehre-Layers-Fiordland-NZ-Patinopsd.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    padding: 0;
+    filter: brightness(60%);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #f3f3f3;
+}
+
+
+.header-text {
+    font-weight: 400;
+    font-size: 9.5rem;
+    text-transform: uppercase;
+    transform: translateY(-120px);
+    text-shadow: 0 5px 15px rgba(12, 12, 12, 0.3);
+}
+
+
+.down-text {
+    font-weight: 300;
+    transform: translateY(-90px);
+    font-size: 1.6rem;
+    color: #f3f3f3;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    width: 300px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+.button-container button:hover {
+    opacity: 0.7; 
+}
+
+#btn-1 {
+    background-color: #9a9694;
+    color: rgb(255, 255, 255);
+}
+
+#btn-2 {
+    background-color: #9a9694;
+    color: #ffffff;
+}
+
+#btn-1:hover {
+    background-color: #535353; 
+
+}
+
+#btn-2:hover {
+    background-color: #454545;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.container-2 {
+    background-color: rgb(22, 22, 22);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #f3f3f3;
+}
+
+
+
+.header-text-2 {
+    font-weight: 300;
+    font-size: 3rem;
+    text-transform: uppercase;
+    transform: translateY(-80px);
+    color: rgb(157, 157, 157);
+}
+
+
+.down-text-2 {
+    font-weight: 300;
+    transform: translateY(-70px);
+    font-size: 1.5rem;
+    color: rgb(149, 149, 149);
+}
+
+
+
+.cards-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1500px;
+    flex-wrap: nowrap;
+}
+
+
+.card {
+    width: 420px;
+    height: 370px;
+    padding: 20px;
+    background: #5a5a5a;
+    opacity: 0.7;
+    border:1px solid #000000 ;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+
+
+
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+}
+
+h3 {
+    font-size: 25px;
+    color: #cbcbcb;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #b0b0b0;
+}
+
+
+
+
+.container-3 {
+    background-color: #111;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20px;
+    color: #fff;
+    height: 1000px;
+}
+
+.header-text-3 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #aaa;
+    transform: translateY(-50px);
+}
+
+.down-text-3 {
+    font-size: 1.6rem;
+    color: #888;
+    margin-bottom: 30px;
+    font-weight: 200;
+    transform: translateY(-50px);
+}
+
+.cards-container-2 {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    max-width: 1500px; 
+    flex-wrap: wrap;
+}
+
+
+.card-2 {
+    background: none;
+    border-radius: 10px;
+    height: 600px;
+    width: 700px;
+    padding: 20px;
+    text-align: center;
+    /* box-shadow: 0 5px 15px rgba(46, 46, 46, 0.3); */
+    transition: transform 0.3s;
+    border: 1px solid #2d2927;
+}
+
+.card-2:hover {
+    transform: translateY(-5px);
+}
+
+.card-2 img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-2 h1 {
+    font-size: 1.7rem;
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.card-2 h3 {
+    font-size: 1rem;
+    color: #bbb;
+    font-weight: 200;
+}
+
+.btn {
+    background: #2d2927;
+    /* border: 1px solid #8b8b8b; */
+    color: #fff;
+    padding: 10px 20px;
+    width: 400px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    transform: translateY(50px);
+}
+
+.btn:hover {
+    background: #fff;
+    color: #111;
+}
+
+
+
+
+.container-4 {
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 800px;
+    max-width: 1900px;
+    margin: auto;
+}
+
+.left-block {
+    flex: 2;
+    background: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 138px;
+}
+
+.left-block img {
+    width: 1000px;
+    height: 300px;
+    border-radius: 10px;
+    transform: translateY(80px);
+
+}
+
+.right-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1300px;
+}
+
+.top-right, .bottom-right {
+    background: transparent;
+    padding: 30px;
+    border-radius: 10px;
+    transform: translateY(35px);
+}
+
+
+.header-text-4 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #aaa;
+    transform: translateY(40px);
+}
+
+
+.down-text-4 {
+    margin-top: 100px;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+
+
+.my-list {
+    list-style: none;
+    color:#fff ;
+}
+
+
+.header-text-5, .header-text-6 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #aaa;
+ 
+}
+
+.header-text-5 {
+    width: 100%;
+}
+
+.right-block button {
+    background: #5a5a5a;
+    width: 300px;
+    height: 50px;
+    font-size: 1.1rem;
+    transform: translateY(40px);
+    transition: 1s ease;
+}
+
+.right-block button:hover {
+    background: #292929;
+}
+
+
+.down-text-5 {
+    transform: translateY(20px);
+}
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between; /* Разносим блоки */
+    align-items: flex-start; /* Выравниваем по верху */
+    flex-wrap: wrap; /* Позволяем адаптивность */
+    padding: 20px;
+    background: #222; /* Цвет фона футера */
+    color: white;
+    height: 500px;
+}
+
+.footer-left {
+    display: flex; /* Размещаем блоки в ряд */
+    gap: 35px; /* Отступ между блоками */
+    width: 50%; /* Задаем ширину для корректного распределения */
+    order: 1; /* Перемещаем влево */
+    transform: translateY(50px);
+    margin-left: 130px;
+}
+
+.footer-block {
+    background: transparent;
+    padding: 15px;
+    flex: 1; /* Чтобы блоки были равномерными */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.footer-right {
+    width: 30%; /* Правый блок (большой) */
+    order: 2; /* Размещаем справа */
+    text-align: center;
+    transform: translateY(65px); 
+    margin-right: 100px;
+}
+
+.footer-right img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.header-text-7, .header-text-8, .header-text-9 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+
+.down-text-6 {
+    font-size: 1.5rem;
+    transform: translateY(50px); 
+    font-weight: 100;
+}
+
+
+.author {
+   background-color: #939393 ;
+   height: 50px;
+}
+
+.author-text {
+    font-weight: 200;
+    font-size: 1.3rem;
+    color: #353535;
+    text-align: center;
+    transform: translateY(10px); 
+}
